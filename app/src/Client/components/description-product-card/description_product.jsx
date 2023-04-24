@@ -37,7 +37,7 @@ const DescripitionProduct = ({product}) => {
        
         <div className="modal__container">
           <i className="fa-solid fa-xmark fa-2xl" onClick={CloseModalDescription}></i>
-          <img src="https://st.depositphotos.com/1102480/1589/i/600/depositphotos_15890699-stock-photo-big-hamburger.jpg"></img>
+          <img src="https://media.licdn.com/dms/image/D4E03AQGtqxFgtsjaQQ/profile-displayphoto-shrink_800_800/0/1664400648584?e=2147483647&v=beta&t=tRpuk4rhV9qyUdKjBtDJvL6dwbTxds5qZ0OUy-D5jIc"></img>
           <div>
             <div className="modal__title">{product.name}</div>
             <div className="modal__description">

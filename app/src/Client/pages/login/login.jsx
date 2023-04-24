@@ -32,7 +32,7 @@ const Login = () => {
             cookies.set("name",response.data.name,{path:"/"})
             cookies.set("username",response.data.user,{path:"/"})
             cookies.set("email",response.data.email,{path:"/"})
-            
+            console.log(response.data.type_user)
               WindowAlert({
                 title:"Inicio de Sesion",
                 text: `Bienvenido ${response.data.name}`,
@@ -43,7 +43,12 @@ const Login = () => {
             
             setTimeout(() => {
 
-              window.location.href="./"
+              (response.data.type_user===1)?
+              
+              window.location.href="./":
+
+              window.location.href="./dashboard/products"
+            
             
           },2000)
             

@@ -96,10 +96,12 @@ const Registrer=()=>{
                         <div className="input-container password">
 
                             <label>Contraseña</label>
-                            <input type="password" placeholder="" onChange={e=>{
+                            <input type="password" class="form-control" placeholder="" onChange={e=>{
                                 setPassword(e.target.value);
-                            }}required></input>
-                            <i className="far fa-eye-slash"></i>
+                            }}required>
+                            </input>
+                            
+                            <i className=""></i>
                         </div>
                         
                         <button className="signup-btn" type="submit">Crear Cuenta</button>
