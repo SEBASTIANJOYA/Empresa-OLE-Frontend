@@ -12,7 +12,7 @@ const Dashboard = (props) => {
       <div className="d-flex" id="wrapper">
         <div className="bg-white" id="sidebar-wrapper">
           <div className="sidebar-heading text-center py-4 primary-text fs-4 fw-bold text-uppercase border-bottom">
-            <i className="fas fa-user-secret me-2"></i>EL MANA
+            <i className="fas fa-user-secret me-2"></i>OLE BOYACA 
           </div>
           <div className="list-group list-group-flush my-3">
             <a

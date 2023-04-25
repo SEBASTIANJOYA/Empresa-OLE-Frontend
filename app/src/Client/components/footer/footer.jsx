@@ -15,8 +15,9 @@ const Footer = () => {
             </div>
             <div class="box">
                 <h2>SOBRE NOSOTROS</h2>
-                <p>Somos un negocio muy reconocido en el departamento de Boyaca el cual ofrecemos 
-                    diferentes productos capilares, Ven y Pide el Tuyo!
+                <p>En esta empresa estamos comprometidos con tu salud capilar, por ello te brindandamos los mejores productos naturales con seis sellos 
+                    de certificacion  invima que nos avala como una empresa responsable con tu salud, recuerda que todos nuestros productos son 100% maquilados 
+                    en Colombia, por ello si desea continuar con nosotros te invitamos a revisar nuestras redes sociales te estamos esperando
                 </p>
                 
             </div>
