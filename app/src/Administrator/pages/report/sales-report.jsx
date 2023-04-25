@@ -26,7 +26,7 @@ const SalesReport = () => {
         id: "basic-bar",
       },
       xaxis: {
-        categories: ["H. de Pollo","P. Caliente","H. de Pollo","S. de Pollo","S. de Carne"],
+        categories: ["Shampoo","Acondicionador","Tratamiento","Exfoliante","Hidratante"],
       },
     },
     series: [
