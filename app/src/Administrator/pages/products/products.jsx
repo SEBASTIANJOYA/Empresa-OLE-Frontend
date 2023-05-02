@@ -25,7 +25,7 @@ const Products = () => {
     formData.append("category", category);
     formData.append("myFile", upload.img_products);
 
-    Axios.post("http://localhost:3001/product", formData, {}).then(
+    Axios.post("http://empresa-ole-backend.vercel.app/product", formData, {}).then(
       (response) => {
         if (response.data.result) {
           window.location.href = "./products";
@@ -41,7 +41,7 @@ const Products = () => {
 
     console.log(products);
 
-    Axios.delete(`http://localhost:3001/product/${value}/${filename}`).then(
+    Axios.delete(`http://empresa-ole-backend.vercel.app/product/${value}/${filename}`).then(
       (response) => {}
     );
   };
@@ -56,10 +56,10 @@ const Products = () => {
   };
 
   useEffect(() => {
-    Axios.get("http://localhost:3001/product/categories").then((response) => {
+    Axios.get("http://empresa-ole-backend.vercel.app/product/categories").then((response) => {
       setCategories(response.data.categories);
     });
-    Axios.get("http://localhost:3001/product").then((response) => {
+    Axios.get("http://empresa-ole-backend.vercel.app/product").then((response) => {
       setProducts(response.data.products);
     });
   }, []);

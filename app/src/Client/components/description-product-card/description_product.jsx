@@ -6,7 +6,7 @@ const DescripitionProduct = ({product}) => {
 
   const [amount,setAmount]=useState(1);
   const {addItemToCart}=useContext(CartContext)
-  var route = "http://localhost:3001/" + product.file_img;
+  var route = "http://empresa-ole-backend.vercel.app/" + product.file_img;
 
   const Disamount=() => {
     if(amount!=1){

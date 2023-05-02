@@ -7,7 +7,7 @@ import { ModalProductContext } from "../../../context/ModalProductContext";
 const Product = ({product}) => {
 
   const {setProduct}=useContext(ModalProductContext);
-  var route = "http://localhost:3001/" + product.file_img;
+  var route = "http://empresa-ole-backend.vercel.app/" + product.file_img;
  
   const OpenModalDescription=(e)=> {
 
